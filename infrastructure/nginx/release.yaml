@@ -21,7 +21,7 @@ spec:
   # Default values
   # https://github.com/bitnami/charts/blob/master/bitnami/nginx-ingress-controller/values.yaml
   values:
-    replicaCount: 3
+    replicaCount: 2
     service:
       type: NodePort
     ingressClassResource:
